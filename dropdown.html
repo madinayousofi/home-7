@@ -1,0 +1,179 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+    .dul{
+        background-color: rgba(39, 39, 37, 0.363);
+        list-style-type: none;
+        color: white;
+        display: inline-block;
+        padding: 20px;
+        text-align: center;
+        margin-left: 100px;
+    }
+      .dli{
+          list-style-type: none;
+      }
+      #div1{
+          width:100%;
+          height:50px ;
+        
+          
+      }
+      .dli{
+        display: inline-block;
+        padding: 10px   80px;
+        text-align: center;
+        
+      }
+      
+    </style>
+</head>
+<body  style="background-image: url(photo_2024-07-23_02-05-20.jpg)";background-repeat:no-repeat;>
+<div id="div1">
+
+      <ul class="dul">
+
+             <li class="dli"> Home</li>
+             <li class="dli"> ABOUT</li>
+             <li class="dli"> Menu</li>
+             <li class="dli"> Services</li>
+             <li class="dli"> Contact</li>
+             
+
+            </div>
+
+
+      </ul>
+
+
+
+
+
+</nav>
+
+
+
+
+
+
+
+
+
+</body>
+
+    
+</div>
+
+
+
+
+
+</body>
+    
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../fontawesome/css/all.min.css">
+</head>
+<style>
+   .nav1{
+    background-color: rgba(88, 77, 77, 0.623);
+    padding: 1px;
+   }
+  .ul1{
+    list-style-type: none;
+    display: inline-block;
+    /* text-align: center; */
+    margin-left: 200px;
+  }
+  .li1{
+    display: inline-block;
+    border: 2px solid white;
+padding: 20px;
+  }
+  li.li1 a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 10px 30px;
+  }
+
+  #Dropdown{
+    position: relative;
+
+  }
+  .Dropdown-contact{
+    position: absolute;
+    display: none;
+    /* background-color: aqua; */
+    width: 250px;
+    height: 300px;
+   
+
+
+  }
+  #Dropdown:hover .Dropdown-contact{
+    display: block;
+  }
+  .btn{
+    width: 200px;
+    height: 70px;
+    background-color: rgba(88, 77, 77, 0.623);
+    color: wheat;
+    font-size: 12px;
+    border: 2px solid white;
+    border-radius: 15px;
+
+  }
+  .li1:hover{
+    background-color: rgb(20, 19, 19);
+padding: 20px;
+    
+  }
+</style>
+<body style="background-image: url(photo_2024-07-23_02-05-20.jpg)">
+  <nav class="nav1">
+        <ul class="ul1"> 
+            <li class="li1"> <a href="#">Home</a></li>    
+            <li class="li1"> <a href="#">About</a></li>
+            <li class="li1"> <a href="#">services</a></li>
+
+
+            
+            
+              <li class="li1" id="Dropdown">
+                <a  href="#">cataguries<i class="fa fa-home"></i></a>
+
+                <div class="Dropdown-contact">
+                  <br>
+                  <button class="btn"><a href="#">categury1</a></button>
+                  <button class="btn"><a href="#">categury2</a></button>
+                  <button class="btn"><a href="#">categury 3</a></button>
+                  <button class="btn"><a href="#">categury 4</a></button>
+
+                 
+                </div>
+
+              </li>  
+              
+              
+
+            <li class="li1"> <a href="#">contact</a></li>    
+        </ul>
+
+  </nav>
+   
+    
+</body>
+</html>
